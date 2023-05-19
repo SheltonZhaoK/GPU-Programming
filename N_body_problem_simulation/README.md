@@ -1,0 +1,2 @@
+# N Body Problem Coordinate Simulations
+The NBody program uses a single command line argument that corresponds to the number of timesteps to perform an n-body simulation. The program then output the Cartesian coordinates of each of the n bodies in a PDB format. The CUDA program computes the forces between the n bodies and update their positions via a kernel call.

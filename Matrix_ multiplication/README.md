@@ -1,0 +1,4 @@
+# Matrix Multiplicaiton
+The MatrixMult.c, MatrixMultNaive.cu, and MatrixMultTiled.cu programs use a command line argument that corresponds to the row/column length to multiply two square matrices with random single precision numbers (i.e., floats). They output 1) the entire execution time in seconds from the beginning to the end of the function/kernel call only, and 2) the product of the two matrices with each element printed out to a file called “product.dat” in a tab-delimited, row/column format. 
+
+The C program implements a serial code via a function call. The CUDA MatrixMultNaive.cu program implements a parallel code via a kernel call using just global memory, and the MatrixMultTiled.cu program implements a parallel code via a kernel call using tiles and shared memory.

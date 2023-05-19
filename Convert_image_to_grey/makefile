@@ -1,0 +1,2 @@
+all:
+	nvcc grayscale.cu
